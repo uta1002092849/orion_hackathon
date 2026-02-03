@@ -1,0 +1,1 @@
+python3 process_kg.py academicKG_instances.json
