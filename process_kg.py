@@ -3,6 +3,8 @@ import argparse
 import os
 import hashlib
 
+VERBOSE = True
+
 def parse_triple_string(s):
     """Parses a string like '(A,b,C)' into a tuple (A, b, C)."""
     s = s.strip()
@@ -79,7 +81,14 @@ def main():
             obj_inst_id = get_id(obj_inst_str, instance_map)
 
             # Associate instances with their types
+            if subj_inst_id in node_type_instances[subj_type_id]:
+                if VERBOSE:
+                    print(f"Duplicate instance detected: '{subj_inst_str}' for node type '{subj_type_str}'")
             node_type_instances[subj_type_id].add(subj_inst_id)
+
+            if obj_inst_id in node_type_instances[obj_type_id]:
+                if VERBOSE:
+                    print(f"Duplicate instance detected: '{obj_inst_str}' for node type '{obj_type_str}'")
             node_type_instances[obj_type_id].add(obj_inst_id)
 
     # Convert sets to sorted lists for JSON serialization
