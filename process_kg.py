@@ -3,7 +3,7 @@ import argparse
 import os
 import hashlib
 
-VERBOSE = True
+VERBOSE = False
 
 def parse_triple_string(s):
     """Parses a string like '(A,b,C)' into a tuple (A, b, C)."""
@@ -46,6 +46,8 @@ def main():
 
     # Result container: Node Type ID -> Set of Instance IDs
     node_type_instances = {}
+    # Result container: Node Type Label -> Set of Instance Labels
+    node_type_instances_labels = {}
 
     for key_pattern, instance_list in data.items():
         # Parse the key: "(SubjectType,predicate,ObjectType)"
@@ -67,6 +69,11 @@ def main():
         if obj_type_id not in node_type_instances:
             node_type_instances[obj_type_id] = set()
 
+        if subj_type_str not in node_type_instances_labels:
+            node_type_instances_labels[subj_type_str] = set()
+        if obj_type_str not in node_type_instances_labels:
+            node_type_instances_labels[obj_type_str] = set()
+
         for instance_str in instance_list:
             # Parse the instance: "(SubjectInstance,predicate,ObjectInstance)"
             inst_parts = parse_triple_string(instance_str)
@@ -85,14 +92,17 @@ def main():
                 if VERBOSE:
                     print(f"Duplicate instance detected: '{subj_inst_str}' for node type '{subj_type_str}'")
             node_type_instances[subj_type_id].add(subj_inst_id)
+            node_type_instances_labels[subj_type_str].add(subj_inst_str)
 
             if obj_inst_id in node_type_instances[obj_type_id]:
                 if VERBOSE:
                     print(f"Duplicate instance detected: '{obj_inst_str}' for node type '{obj_type_str}'")
             node_type_instances[obj_type_id].add(obj_inst_id)
+            node_type_instances_labels[obj_type_str].add(obj_inst_str)
 
     # Convert sets to sorted lists for JSON serialization
     final_node_instances = {k: sorted(list(v)) for k, v in node_type_instances.items()}
+    final_node_instances_labels = {k: sorted(list(v)) for k, v in node_type_instances_labels.items()}
 
     # Output filenames
     output_dir = "output"
@@ -103,6 +113,7 @@ def main():
     f_edge_map = os.path.join(output_dir, "map_edge_types.json")
     f_inst_map = os.path.join(output_dir, "map_instances.json")
     f_final = os.path.join(output_dir, "node_type_instances.json")
+    f_final_labels = os.path.join(output_dir, "node_type_instances_labels.json")
 
     # Write files
     print("Writing output files...")
@@ -122,6 +133,10 @@ def main():
     with open(f_final, 'w') as f:
         json.dump(final_node_instances, f, indent=4)
     print(f"Created {f_final}")
+
+    with open(f_final_labels, 'w') as f:
+        json.dump(final_node_instances_labels, f, indent=4)
+    print(f"Created {f_final_labels}")
 
     print("Processing complete.")
 

@@ -1,0 +1,370 @@
+{
+    "City": [
+        "Austin",
+        "Boston",
+        "Chicago",
+        "NewYork",
+        "SanFrancisco"
+    ],
+    "Company": [
+        "Amazon",
+        "Google",
+        "IBM",
+        "Microsoft",
+        "Tesla"
+    ],
+    "University": [
+        "ColumbiaUniversity",
+        "HarvardUniversity",
+        "MassachusettsInstituteofTechnology",
+        "NewYorkUniversity",
+        "NorthwesternUniversity",
+        "SanFranciscoStateUniversity",
+        "StEdwardsUniversity",
+        "UniversityofCaliforniaSanFrancisco",
+        "UniversityofChicago",
+        "UniversityofTexasatAustin"
+    ],
+    "Organization": [
+        "Apple",
+        "BostonMedicalCenter",
+        "BostonUniversity",
+        "ChicagoTransitAuthority",
+        "Google",
+        "Microsoft",
+        "NYCHealthDept",
+        "SanFranciscoMuseum",
+        "TechCorp",
+        "UniversityofTexas"
+    ],
+    "State": [
+        "California",
+        "Illinois",
+        "Massachusetts",
+        "NewYorkState",
+        "Texas"
+    ],
+    "Country": [
+        "USA",
+        "UnitedStates"
+    ],
+    "College": [
+        "CollegeofArtsandSciences",
+        "CollegeofBusiness",
+        "CollegeofComputerScience",
+        "CollegeofEducation",
+        "CollegeofEngineering",
+        "CollegeofEnvironmentalScience",
+        "CollegeofLaw",
+        "CollegeofMedicine",
+        "CollegeofNursing",
+        "CollegeofPharmacy"
+    ],
+    "Department": [
+        "ArtsAndSciencesDepartment",
+        "BusinessDepartment",
+        "ComputerScienceDepartment",
+        "EducationDepartment",
+        "EngineeringDepartment",
+        "EnvironmentalScienceDepartment",
+        "LawDepartment",
+        "MedicineDepartment",
+        "NursingDepartment",
+        "PharmacyDepartment"
+    ],
+    "Course": [
+        "ConstitutionalLaw101",
+        "DataStructures",
+        "EcologyAndConservation",
+        "FinancialAccounting",
+        "FundamentalsOfNursing301",
+        "HumanAnatomy",
+        "InstructionalDesign",
+        "PharmacologyBasics",
+        "StaticsAndDynamics",
+        "WorldHistory202"
+    ],
+    "Degree": [
+        "BachelorOfArts",
+        "BachelorOfScienceInEnvironmentalScience",
+        "BachelorOfScienceInMechanicalEngineering",
+        "DoctorOfMedicine",
+        "DoctorOfPharmacy",
+        "JurisDoctor",
+        "MasterOfBusinessAdministration",
+        "MasterOfEducation",
+        "MasterOfScienceInComputerScience",
+        "MasterOfScienceInNursing"
+    ],
+    "Major": [
+        "Arts",
+        "BusinessAdministration",
+        "ComputerScience",
+        "Education",
+        "EnvironmentalScience",
+        "Law",
+        "MechanicalEngineering",
+        "Medicine",
+        "Nursing",
+        "Pharmacy"
+    ],
+    "DegreeLevel": [
+        "Bachelor",
+        "Doctorate",
+        "Master",
+        "Professional"
+    ],
+    "Subject": [
+        "Accounting",
+        "Anatomy",
+        "ComputerScience",
+        "Ecology",
+        "Education",
+        "Engineering",
+        "History",
+        "Law",
+        "Nursing",
+        "Pharmacology"
+    ],
+    "ProfessionalAssociation": [
+        "AmericanArtsAndHumanitiesAssociation",
+        "AmericanBarAssociation",
+        "AmericanEducationAssociation",
+        "AmericanEnvironmentalScienceAssociation",
+        "AmericanManagementAssociation",
+        "AmericanMechanicalEngineeringSociety",
+        "AmericanMedicalAssociation",
+        "AmericanNursingAssociation",
+        "AmericanPharmacyAssociation",
+        "AssociationforComputingMachinery"
+    ],
+    "Lab": [
+        "ArtificialIntelligenceLab",
+        "ClinicalNursingLab",
+        "EcologyFieldLab",
+        "EntrepreneurshipLab",
+        "HumanitiesResearchLab",
+        "InstructionalDesignLab",
+        "LegalStudiesLab",
+        "MechanicalEngineeringLab",
+        "MedicalSimulationLab",
+        "PharmaceuticalAnalysisLab"
+    ],
+    "AcademicArea": [
+        "Business",
+        "ComputerScience",
+        "Ecology",
+        "Education",
+        "Humanities",
+        "Law",
+        "MechanicalEngineering",
+        "Medicine",
+        "Nursing",
+        "Pharmacy"
+    ],
+    "Person": [
+        "DrEmilyClark",
+        "DrLauraKim",
+        "DrSofiaPatel",
+        "ProfDavidLee",
+        "ProfMichaelNguyen"
+    ],
+    "Rank": [
+        "AssistantProfessor",
+        "AssociateProfessor",
+        "Lecturer",
+        "Professor",
+        "ResearchFellow",
+        "SeniorLecturer"
+    ],
+    "Committee": [
+        "AdmissionsCommittee",
+        "AlumniRelationsCommittee",
+        "CurriculumCommittee",
+        "DiversityInclusionCommittee",
+        "FacultySenateCommittee",
+        "FinanceCommittee",
+        "GraduateStudiesCommittee",
+        "ResearchEthicsCommittee",
+        "StudentAffairsCommittee",
+        "TechnologyCommittee"
+    ],
+    "StudentOrganization": [
+        "BiologyClub",
+        "ComputerScienceAssociation",
+        "EngineeringSociety",
+        "EnvironmentalActionGroup",
+        "LiteratureCircle",
+        "MathSociety"
+    ],
+    "InstructionalFacility": [
+        "AnatomyLab3",
+        "BusinessSchoolLectureHallA",
+        "ComputerScienceLab101",
+        "EducationCenterRoom205",
+        "EngineeringWorkshop5",
+        "EnvironmentalScienceLab7",
+        "HealthSciencesBuildingRoom210",
+        "HumanitiesHallB",
+        "LawSchoolLectureHall2",
+        "PharmacyLab12"
+    ],
+    "Student": [
+        "AndrewWalker",
+        "AshleyLewis",
+        "ChristopherLee",
+        "DavidClark",
+        "EmilyDavis",
+        "JaneSmith",
+        "JoshuaYoung",
+        "MeganHall",
+        "MichaelBrown",
+        "SarahWilson"
+    ],
+    "Dormitory": [
+        "MapleHall",
+        "OakResidence",
+        "PineHall",
+        "RiverDorm",
+        "RoseHall"
+    ],
+    "ResearchFacility": [
+        "AIResearchInstitute",
+        "AdvancedManufacturingLab",
+        "EducationTechnologyCenter",
+        "EnvironmentalScienceInstitute",
+        "HealthSciencesCenter",
+        "HumanitiesAndCultureComplex",
+        "InnovationAndEnterpriseHub",
+        "LawAndPolicyResearchCenter",
+        "MedicalTrainingFacility",
+        "PharmaDiscoveryFacility"
+    ],
+    "Scholarship": [
+        "ArtsAndHumanitiesFellowship",
+        "HarvardGlobalLeadershipScholarship",
+        "LeadershipExcellenceAward",
+        "MITQuantumComputingScholarship",
+        "SFStateCommunityServiceGrant",
+        "ScholarsFutureGrant",
+        "StEdwardsSTEMScholar",
+        "TechInnovationScholarship",
+        "TexasAustinResearchScholarship",
+        "UCSFHealthSciencesFellowship"
+    ],
+    "Award": [
+        "DistinguishedServiceAward",
+        "EducationExcellenceAward",
+        "ExcellenceInEnvironmentalResearchAward",
+        "HumanitiesScholarAward",
+        "ManagementLeadershipAward",
+        "NursingLeadershipAward",
+        "OutstandingMechanicalEngineeringAward",
+        "PharmacyInnovationAward",
+        "PresidentsMedalOfHonor",
+        "TuringAward"
+    ],
+    "Publication": [
+        "AdvancesInArtificialIntelligence",
+        "BrainImagingTechniques",
+        "ComputationalBiologyReview",
+        "DataPrivacyAndSecurity",
+        "DeepLearningForHealthcare",
+        "EthicalAIFramework",
+        "NeuroscienceOfMemory",
+        "RenewableEnergySystems",
+        "SmartGridTechnologies",
+        "StatisticalMethodsInGenomics"
+    ],
+    "Language": [
+        "Arabic",
+        "Chinese",
+        "English",
+        "French",
+        "German",
+        "Hindi",
+        "Japanese",
+        "Portuguese",
+        "Russian",
+        "Spanish"
+    ],
+    "Journal": [
+        "AdvancesInArtificialIntelligence",
+        "BrainImagingTechniques",
+        "ComputationalBiologyReview",
+        "DataPrivacyAndSecurity",
+        "DeepLearningForHealthcare",
+        "EthicalAIFramework",
+        "NeuroscienceOfMemory",
+        "RenewableEnergySystems",
+        "SmartGridTechnologies",
+        "StatisticalMethodsInGenomics"
+    ],
+    "Conference": [
+        "ArtificialIntelligenceSummit",
+        "BrainImagingForum",
+        "ComputationalBiologyMeeting",
+        "DataPrivacyWorkshop",
+        "EthicalAIConference",
+        "HealthcareAIConference",
+        "InternationalGenomicsConference",
+        "NeuroscienceSymposium2023",
+        "RenewableEnergyCongress",
+        "SmartGridSummit"
+    ],
+    "Competition": [
+        "AIAlgorithmBattle",
+        "BioinformaticsCodingCup",
+        "CognitiveNeuroscienceQuizBowl",
+        "EthicalAIDesignContest",
+        "GenomicsDataHackathon",
+        "HealthTechAIChallenge",
+        "NeuroVisionChallenge",
+        "PrivacyProtectionHack",
+        "SmartGridOptimizationContest",
+        "SolarPowerInnovationContest"
+    ],
+    "Employer": [
+        "HarvardUniversity",
+        "JohnsHopkinsUniversity",
+        "MIT",
+        "StanfordUniversity",
+        "UniversityOfCaliforniaBerkeley"
+    ],
+    "Title": [
+        "AdjunctProfessor",
+        "AssistantProfessor",
+        "AssociateProfessor",
+        "Dean",
+        "DepartmentChair",
+        "Lecturer",
+        "PostdoctoralFellow",
+        "Professor",
+        "ResearchScientist",
+        "SeniorLecturer"
+    ],
+    "Product": [
+        "CloudSecurityMonitoringSystem",
+        "DistributedSystemsFramework",
+        "GenomicsDataAnalysisPlatform",
+        "MachineLearningInterpretabilityLibrary",
+        "NeuralNetworkOptimizationToolkit",
+        "PersonalizedMedicineRecommendationEngine",
+        "QuantumComputingErrorCorrectionScheme",
+        "RenewableEnergySimulationModel",
+        "SmartCampusIoTPlatform",
+        "StatisticalInferenceSoftwarePackage"
+    ],
+    "Patent": [
+        "US20230010001A1",
+        "US20230020002A1",
+        "US20230030003A1",
+        "US20230040004A1",
+        "US20230050005A1",
+        "US20230060006A1",
+        "US20230070007A1",
+        "US20230080008A1",
+        "US20230090009A1",
+        "US20230100010A1"
+    ]
+}
